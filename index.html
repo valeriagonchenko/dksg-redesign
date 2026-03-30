@@ -970,13 +970,7 @@
 <nav class="navbar">
   <div class="navbar-inner">
     <a href="#" class="logo">
-      <!-- NEW LOGO: SVG representation of the new tri-stripe logo -->
-      <svg class="logo-svg" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- Three dynamic curved stripes: blue (top/culture), green (middle/sport), dark (bottom/railway) -->
-        <path d="M8 10 Q18 6 30 12 Q42 18 46 14 Q44 22 32 24 Q18 26 10 20 Z" fill="#1a4fa0"/>
-        <path d="M6 22 Q16 18 30 24 Q44 30 48 26 Q46 34 32 36 Q16 38 8 32 Z" fill="#1b8a7a"/>
-        <path d="M8 34 Q20 30 32 36 Q44 42 46 38 Q44 46 30 46 Q14 46 8 40 Z" fill="#2c3e5a"/>
-      </svg>
+      <img src="logo.png" alt="Логотип КСЦ БЧ" class="logo-img">
       <div class="logo-text">
         <div class="org">УП «Минское отделение БЖД»</div>
         <div class="name">Культурно-спортивный центр</div>
@@ -1403,7 +1397,7 @@
             <div class="contact-item-icon">✉️</div>
             <div class="contact-item-body">
               <div class="contact-item-label">Электронная почта</div>
-              <div class="contact-item-val"><a href="mailto:ksc_sec@minsk.rw.by">ksc_sec@minsk.rw.by</a></div>
+              <div class="contact-item-val"><a href="/cdn-cgi/l/email-protection#3e554d5d614d5b5d7e5357504d55104c49105c47"><span class="__cf_email__" data-cfemail="acc7dfcff3dfc9cfecc1c5c2dfc782dedb82ced5">[email&#160;protected]</span></a></div>
             </div>
           </div>
           <div class="contact-item">
@@ -1456,11 +1450,7 @@
       <div class="footer-brand">
         <div class="footer-logo">
           <a href="#" class="logo">
-            <svg class="logo-svg" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 10 Q18 6 30 12 Q42 18 46 14 Q44 22 32 24 Q18 26 10 20 Z" fill="#1a4fa0"/>
-              <path d="M6 22 Q16 18 30 24 Q44 30 48 26 Q46 34 32 36 Q16 38 8 32 Z" fill="#1b8a7a"/>
-              <path d="M8 34 Q20 30 32 36 Q44 42 46 38 Q44 46 30 46 Q14 46 8 40 Z" fill="#4a6080"/>
-            </svg>
+            <img src="logo.png" alt="Логотип КСЦ БЧ" class="logo-img">
             <div class="logo-text">
               <div class="org" style="color:rgba(255,255,255,0.4)">УП «Минское отделение БЖД»</div>
               <div class="name" style="color:white">Культурно-спортивный центр</div>
@@ -1562,7 +1552,7 @@
   </div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const events = {
     event1: { title: 'VII Открытый фестиваль хореографии «Поколение Альфа»', desc: '28 марта 2026, 10:00 · г. Минск, ул. Чкалова, 7\n\nСтоимость уточнять по телефонам: 8 (017) 374 51 58, +375293306106.' },
     event2: { title: 'IX Открытый конкурс-фестиваль «Happy Star Dance Fest»', desc: '29 марта 2026, 10:00 · г. Минск, ул. Чкалова, 7\n\nСтоимость уточнять по телефонам: 8 (017) 374 51 58, +375 (29) 200-00-89.' },
@@ -1587,14 +1577,4 @@
   window.addEventListener('scroll', () => {
     let current = '';
     sections.forEach(s => {
-      if (window.scrollY >= s.offsetTop - 100) current = s.id;
-    });
-    document.querySelectorAll('.nav-links a').forEach(a => {
-      a.classList.remove('active');
-      if (a.getAttribute('href') === '#' + current) a.classList.add('active');
-    });
-  });
-</script>
-
-</body>
-</html>
+      if (window.scrollY >= s.offsetTop - 100
